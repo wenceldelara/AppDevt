@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Machine Problem</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2 style="text-align:center">WENCEL R. DE LARA</h2>
+        <h3 style="text-align:center"><i>Applications Devt & Emerging Technologies</i></h3>
+        
+        <!--Item#1-->
+        <div class="container" style = "background-color: #D9514EFF;">
+            <div class="padding">
+                <h2 style="color: #2A2B2DFF"><b>(1)</b></h2>
+                <p id="calc">Write a JavaScript program to calculate multiplication and division of two numbers (input from the user).</p>
+                <h3 id="calc"><u>CALCULATOR</u></h3>
+                <p id = "calc">1st Number: <input type="number" id="firstInput" style="border-radius: 10px;"></p>
+                <p id = "calc">2nd Number: <input type="number" id="secondInput" style="border-radius: 10px;"></p>
+                <button onclick="product()" style="border-radius: 10px;">Multiply (x)</button>
+                <button onclick="quotient()" style="border-radius: 10px;">Divide (÷)</button>
+                <h1 style=color:#2A2B2DFF id = "result">-result-</h1>
+            </div>
+        </div>
+
+        <!--Item#2-->
+        <div class="container" style="background-color: #2A2B2DFF;">
+            <div class="padding">
+                <h2 style="color: #2DA8D8FF"><b>(2)</b></h2>
+                <p id = "iterate">Write a JavaScript for loop that will iterate from 
+                    0 to 15. For each iteration, it will check if the current number is
+                        odd or even, and display a message to the screen.</p>
+                <h3 id="iterate"><u>ODD OR EVEN CHECKER</u></h3>
+                <h5 style="color: #2DA8D8FF" id="loop"></h5>
+            </div>
+        </div>
+        
+        <!--Item#3-->
+        <div class="container" style="background-color:#2DA8D8FF">
+            <div class="padding">
+                <h2 style="color: #D9514EFF"><b>(3)</b></h2>
+                <p id = "casing">Write a JavaScript program with user input to test the first character is upper case or not.</p>
+                <h3 id="casing"><u>CASE CHECKER</u></h3>
+                <p id = "casing">Input Text:</p>
+                <textarea id="text" cols="40" rows="5" style="border-radius: 10px;"></textarea>
+                <div class="button_3">
+                    <button onclick="casing()" style="border-radius: 10px;">Enter</button>
+                </div>
+                <h4 style=color:#2A2B2DFF id = "result_2">-result-</h4>
+            </div> 
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
